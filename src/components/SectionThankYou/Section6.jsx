@@ -1,7 +1,7 @@
 const Section6 = (props) => {
   return (
     <div>
-      <section className="grid grid-cols-1 md:grid-cols-2 min-h-[80vh] pt-15">
+      <section id="x6" className="grid grid-cols-1 md:grid-cols-2 min-h-[80vh] pt-15">
         <div className="h-150 w-200 flex items-center justify-center p-10 mt-15 ml-20">
           <img
             src={props.tysm}

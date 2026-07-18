@@ -4,7 +4,7 @@ import Paragraph from "./Paragraph";
 const Section2 = (props) => {
   return (
     <div>
-      <section
+      <section id="x2" data-scroll data-scroll-section data-scroll-speed="-0.17"
         id="about"
         className="grid grid-cols-1 md:grid-cols-2 gap-15 items-center px-[8%] py-30"
       >

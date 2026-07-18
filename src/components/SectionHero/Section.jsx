@@ -1,14 +1,16 @@
+import { motion } from "framer-motion";
+
 const Section = (props) => {
   return (
     <div>
-              <section className="relative h-screen grid grid-cols-1 md:grid-cols-2">
-                <div className="flex flex-col justify-center pl-12 md:pl-25 bg-[#111923]">
+              <section id="x1" data-scroll data-scroll-section data-scroll-speed="1.5" className="relative h-screen grid grid-cols-1 md:grid-cols-2">
+                <div  className="flex flex-col justify-center pl-12 md:pl-25 bg-[#111923]">
                   <p className="text-[#31d67b] mb-4">Hello Everyone</p>
-        
-                  <h1 className="text-[50px] md:text-[70px] font-extrabold leading-tight">
+                  
+                  <motion.h1 initial={{width:0}} animate={{}} transition={{duration:1, delay:1}} className="text-[50px] md:text-[70px] font-extrabold leading-tight whitespace-nowrap">
                     I'M ABDUL <br />
                     MANNAN
-                  </h1>
+                  </motion.h1>
         
                   <button className="flex justify-center items-center w-fit bg-[#31d67b] border-2 border-[#31d67b] px-7 py-3 font-bold cursor-pointer mt-6 rounded transition-all duration-200 active:scale-95 hover:bg-emerald-700 hover:border-emerald-700 text-base">
                     DESIGNER

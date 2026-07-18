@@ -1,7 +1,7 @@
 const Section4 = (props) => {
   return (
     <div>
-        <section id="skills" className="grid grid-cols-1 md:grid-cols-2 gap-15 items-center px-[8%] py-30">
+        <section id="x4" id="skills" className="grid grid-cols-1 md:grid-cols-2 gap-15 items-center px-[8%] py-30">
                 <div>
                   <div className="flex items-center gap-5 mb-8">
                     <span className="w-25 h-1 bg-[#31d67b]" />
