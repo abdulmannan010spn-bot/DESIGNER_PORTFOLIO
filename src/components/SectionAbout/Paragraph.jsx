@@ -1,7 +1,7 @@
 const Paragraph = () => {
   return (
     <div>
-      <p className="text-lg">
+      <p className="lg:text-lg font-medium text-center lg:text-start">
         Hi, I'm Abdul Mannan. I'm currently pursuing a Bachelor's degree in
         Computer Science and Engineering at Ajay Kumar Garg Engineering College.
         Alongside my academics, I'm actively exploring the world of UI/UX design
@@ -11,7 +11,7 @@ const Paragraph = () => {
 
       <br />
 
-      <p className="text-lg">
+      <p className="lg:text-lg font-medium text-center lg:text-start">
         On the technical side, I'm continuously strengthening my skills in Data
         Structures and Algorithms (DSA) while expanding my knowledge of software
         development. At the same time, I pursue my passion for video editing,
@@ -21,7 +21,7 @@ const Paragraph = () => {
 
       <br />
 
-      <p className="text-lg">
+      <p className="lg:text-lg font-medium text-center lg:text-start">
         My editing journey has been incredibly rewarding, with several of my
         Instagram videos gaining significant traction and reaching 5.5M, 1.5M,
         1M, 522K, and 100K+ views, helping me develop a deeper understanding of
@@ -30,7 +30,7 @@ const Paragraph = () => {
 
       <br />
 
-      <p className="text-lg">
+      <p className="lg:text-lg font-medium text-center lg:text-start">
         Currently, I'm a member of the Open Source Software and Research &
         Development Centre (OSSRDC), where I collaborate with talented peers and
         learn from supportive seniors. This experience has given me valuable

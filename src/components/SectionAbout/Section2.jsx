@@ -6,9 +6,9 @@ const Section2 = (props) => {
     <div>
       <section id="x2" data-scroll data-scroll-section data-scroll-speed="-0.17"
         id="about"
-        className="grid grid-cols-1 md:grid-cols-2 gap-15 items-center px-[8%] py-30"
+        className="grid grid-cols-1 lg:grid-cols-2 gap-15 items-center px-[8%] py-30"
       >
-        <div className="relative p-12">
+        <div className="relative lg:p-12">
           <img src={props.my} alt="" className="w-full relative" />
         </div>
 
