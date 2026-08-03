@@ -23,7 +23,7 @@ const Section = (props) => {
                <img src={props.sign} className="h-full w-auto object-contain mt-20" alt="" />
             </div>
            </div>
-                <div className="relative lg:bg-[#31d67b] bg-[#111923] lg:flex justify-center items-center h-[120%]">
+                <div className="relative lg:bg-[#31d67b] bg-[#111923] lg:flex justify-center items-center">
                   
                   <img 
                     src={props.profile2}
