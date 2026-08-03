@@ -18,7 +18,7 @@ const Section = (props) => {
                   </button>
                 </div>
            <div className="flex text-sm justify-center flex-col uppercase text-center px-5 md:hidden lg:hidden">
-            <h2>UI/UX Designer crafting clean,user-friendly and meaningful digital experience</h2>
+            <h2 className="mt-20">UI/UX Designer crafting clean,user-friendly and meaningful digital experience</h2>
             <div className="w-full h-65 mt-5 flex justify-center items-center">
                <img src={props.sign} className="h-full w-auto object-contain mt-20" alt="" />
             </div>
@@ -28,7 +28,7 @@ const Section = (props) => {
                   <img 
                     src={props.profile2}
                     alt=""
-                    className="absolute lg:right-3/5 lg:h-[85.66666666667%] h-[165%] right-0.5 bottom-138.5 lg:top-1/7 md:bottom-121 md:h-full mr-5"
+                    className="profile absolute lg:right-3/5 lg:h-[85.66666666667%] h-[190%] right-0.5 bottom-145 lg:top-1/7 md:bottom-121 md:h-full mr-5"
                   />
                 </div>
               </section>
