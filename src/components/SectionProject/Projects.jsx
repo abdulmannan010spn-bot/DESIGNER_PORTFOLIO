@@ -8,7 +8,7 @@ const Projects = (props) => {
             className="bg-[#1a2431]  p-4 rounded-lg transition-transform duration-300 hover:-translate-y-2"
           >
             <img src={p.img} alt={p.title} className="w-full" />
-            <h3 className="text-center mt-4 font-medium text-lg">{p.title}</h3>
+            <h3 className="text-center mt-4 font-medium lg:text-lg md:text-sm whitespace-nowrap">{p.title}</h3>
           </div>
         ))}
       </div>

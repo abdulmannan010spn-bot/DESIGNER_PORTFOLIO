@@ -5,7 +5,7 @@ const Section4 = (props) => {
                 <div>
                   <div className="flex items-center gap-5 mb-8">
                     <span className="w-25 h-1 bg-[#31d67b]" />
-                    <h2 className="text-[35px] md:text-[45px]">Personal Skills</h2>
+                    <h2 className="text-[35px] md:text-[40px] whitespace-nowrap">Personal Skills</h2>
                   </div>
         
                   <ul className="leading-[2.3] list-none text-lg">

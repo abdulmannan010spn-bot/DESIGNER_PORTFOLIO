@@ -14,7 +14,7 @@ const Section2 = (props) => {
 
         <div>
           <div className="flex items-center gap-5 mb-8">
-            <h2 className="text-[35px] md:text-[45px]">About Me</h2>
+            <h2 className="text-[35px] md:text-[40px] whitespace-nowrap">About Me</h2>
             <span className="w-30 h-1 bg-[#31d67b]" />
           </div>
 

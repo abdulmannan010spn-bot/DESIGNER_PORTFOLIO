@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 const Section = (props) => {
   return (
     <div>
-              <section id="x1" data-scroll data-scroll-section data-scroll-speed="1.5" className="relative h-screen grid lg:grid-cols-2">
+              <section id="x1" data-scroll data-scroll-section data-scroll-speed="1.5" className="relative h-screen grid lg:grid-cols-2 md:grid-cols-1">
                 <div  className="flex flex-col justify-center pl-12 md:pl-25 bg-[#111923]">
-                  <p className="text-[#31d67b] lg:mb-4 text-sm">Hello Everyone</p>
+                  <p className=" lg:text-lg text-[#31d67b]">Hello Everyone</p>
                   
-                  <motion.h1 initial={{width:0}} animate={{}} transition={{duration:1, delay:1}} className="lg:text-[50px] text-4xl md:text-[70px] font-extrabold leading-tight whitespace-nowrap">
+                  <motion.h1 initial={{width:0}} animate={{}} transition={{duration:1, delay:1}} className="md:text-[50px] text-3xl lg:text-[70px] font-extrabold leading-tight whitespace-nowrap">
                     I'M ABDUL <br />
                     MANNAN
                   </motion.h1>
@@ -22,7 +22,7 @@ const Section = (props) => {
                   <img 
                     src={props.profile2}
                     alt=""
-                    className="absolute lg:right-3/5 lg:h-[85.66666666667%] h-[88%] right-0.5 bottom-96 lg:top-1/7 "
+                    className="absolute lg:right-3/5 lg:h-[85.66666666667%] h-[65%] right-0.5 bottom-110 lg:top-1/7 md:bottom-121 md:h-full "
                   />
                 </div>
               </section>
