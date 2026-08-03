@@ -22,7 +22,7 @@ const Section = (props) => {
                   <img 
                     src={props.profile2}
                     alt=""
-                    className="absolute lg:right-3/5 lg:h-[85.66666666667%] h-[65%] right-0.5 bottom-110 lg:top-1/7 md:bottom-121 md:h-full "
+                    className="absolute lg:right-3/5 lg:h-[85.66666666667%] h-[65%] right-0.5 bottom-110 lg:top-1/7 md:bottom-121 md:h-full mr-4"
                   />
                 </div>
               </section>
