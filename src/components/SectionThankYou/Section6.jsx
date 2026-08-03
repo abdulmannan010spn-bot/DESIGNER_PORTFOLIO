@@ -14,12 +14,12 @@ const Section6 = (props) => {
         />
       </div>
 
-      <div className="flex flex-col items-center lg:items-start justify-center p-10 lg:mr-20 space-y-4 text-center lg:text-left ml-4">
+      <div className="flex flex-col items-center lg:items-start justify-center p-10 lg:mr-20 space-y-4 text-center lg:text-left ml-2">
         <small className="tracking-widest text-[#31d67b] font-semibold">
           PORTFOLIO DESIGNER
         </small>
 
-        <h2 className="text-6xl lg:text-[70px] leading-tight">
+        <h2 className="text-6xl lg:text-[70px] leading-tight whitespace-nowrap">
           THANK YOU
         </h2>
 

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="flex justify-center">
-      <nav className="flex justify-between lg:px-15 py-6 fixed w-full px-8 z-25 bg-[#111923]">
+      <nav className="flex justify-between items-center lg:px-15 py-6 fixed w-full px-8 z-25 bg-[#111923]">
         <Link to="/" className="logo text-white no-underline lg:text-xl text-sm">PORTFOLIO</Link>
 
         <ul className="flex lg:gap-10 gap-4 list-none">
