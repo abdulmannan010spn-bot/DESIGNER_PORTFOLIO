@@ -3,12 +3,12 @@ import cv from "../../assets/cv.png";
 
 const PageResume = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-[#111923] p-5 gap-6">
+    <div className="min-h-screen flex flex-col justify-center items-center bg-[#111923] p-5 gap-6 overflow-hidden ">
         <div className="mt-10">
         <img
         src={cv}
         alt="Resume"
-        className="max-w-[50vh] max-h-[120vh] object-contain rounded-xl"
+        className="lg:max-w-[50vh] lg:max-h-[120vh] object-contain rounded-xl"
       />
       </div>
       <div className="mt-5">
