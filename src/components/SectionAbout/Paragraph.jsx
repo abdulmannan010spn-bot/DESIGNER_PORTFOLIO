@@ -12,16 +12,6 @@ const Paragraph = () => {
       <br />
 
       <p className="lg:text-lg font-medium text-center lg:text-start">
-        On the technical side, I'm continuously strengthening my skills in Data
-        Structures and Algorithms (DSA) while expanding my knowledge of software
-        development. At the same time, I pursue my passion for video editing,
-        creating engaging content and experimenting with new storytelling
-        techniques.
-      </p>
-
-      <br />
-
-      <p className="lg:text-lg font-medium text-center lg:text-start">
         My editing journey has been incredibly rewarding, with several of my
         Instagram videos gaining significant traction and reaching 5.5M, 1.5M,
         1M, 522K, and 100K+ views, helping me develop a deeper understanding of

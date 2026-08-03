@@ -2,24 +2,23 @@ const Section6 = (props) => {
   return (
     <section
       id="x6"
-      className="grid grid-cols-1 lg:grid-cols-2 min-h-[80vh] items-center gap-10 pt-15"
+      className="grid grid-cols-1 lg:grid-cols-2 min-h-[80vh] items-center gap-10 lg:gap-16 pt-15 px-6 lg:px-20"
     >
-
-      <div className="flex items-center justify-center p-8 lg:h-150 lg:w-200 lg:p-10 lg:mt-15 lg:ml-20">
+      <div className="flex items-center justify-center w-full">
         <img
           src={props.tysm}
           alt="Thank you illustration"
-          className="w-full h-full object-cover rounded-lg"
+          className="w-full max-w-lg h-auto object-cover rounded-lg"
           loading="lazy"
         />
       </div>
 
-      <div className="flex flex-col items-center lg:items-start justify-center p-10 lg:mr-20 space-y-4 text-center lg:text-left ml-2">
+      <div className="flex flex-col items-center lg:items-start justify-center space-y-4 text-center lg:text-left">
         <small className="tracking-widest text-[#31d67b] font-semibold">
           PORTFOLIO DESIGNER
         </small>
 
-        <h2 className="text-6xl lg:text-[70px] leading-tight whitespace-nowrap">
+        <h2 className="text-6xl lg:text-[70px] leading-tight">
           THANK YOU
         </h2>
 

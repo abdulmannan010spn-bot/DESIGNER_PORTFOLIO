@@ -9,7 +9,7 @@ const Section2 = (props) => {
         className="grid grid-cols-1 lg:grid-cols-2 gap-15 items-center px-[8%] py-30"
       >
         <div className="relative lg:p-12">
-          <img src={props.my} alt="" className="w-full relative" />
+          <img src={props.my} alt="" className="w-full relative rounded-3xl" />
         </div>
 
         <div>

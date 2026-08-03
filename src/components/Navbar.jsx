@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import { BriefcaseBusiness } from "lucide-react";
 
 const Navbar = () => {
   return (
     <div className="flex justify-center">
       <nav className="flex justify-between items-center lg:px-15 py-6 fixed w-full px-8 z-25 bg-[#111923]">
-        <Link to="/" className="logo text-white no-underline lg:text-xl text-sm">PORTFOLIO</Link>
+        <Link to="/" className="logo text-white no-underline lg:text-xl text-sm"><BriefcaseBusiness size={28}/></Link>
 
         <ul className="flex lg:gap-10 gap-4 list-none">
           <li><a href="#about" className="text-white no-underline hover:text-gray-300 lg:text-lg text-sm">About</a></li>
