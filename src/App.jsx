@@ -20,6 +20,7 @@ import crt from "./assets/crt.png";
 import ecommerce from "./assets/ecommerce.png";
 import hotwheelsposter from "./assets/hotwheelsposter.png";
 import id from "./assets/id.png";
+import sign from "./assets/sign.png"
 import m4 from "./assets/m4.png";
 import music1 from "./assets/music1.png";
 import oss from "./assets/oss.png";
@@ -62,7 +63,7 @@ function HomePage() {
   return (
     <div ref={scrollcontainer} data-scroll-container >
       {/* HERO */}
-      <Section profile2={profile2} />
+      <Section profile2={profile2} sign={sign} />
 
       {/* ABOUT */}
       <Section2 my={my} />
