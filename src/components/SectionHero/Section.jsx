@@ -5,14 +5,15 @@ const Section = (props) => {
     <div>
       <section id="x1" data-scroll data-scroll-section data-scroll-speed="1.5" className="relative h-screen grid lg:grid-cols-2 md:grid-cols-1">
 
-        <div className="flex flex-col items-center text-center justify-center px-6 pt-10 lg:items-start lg:text-left lg:pl-12 lg:pt-0 md:pl-25 bg-[#111923] mt-15">
-          <p className="lg:text-lg text-[#31d67b] text-sm mr-5">Hello Everyone</p>
+        <div className="flex flex-col items-center text-center justify-center px-6 pt-10 lg:pl-12 lg:pt-0 md:pl-25 bg-[#111923] mt-15">
+
+          <p className="lg:text-lg text-[#31d67b] text-sm">Hello Everyone</p>
 
           <motion.h1
-            initial={{ width: 0 }}
-            animate={{}}
-            transition={{ duration: 1, delay: 1 }}
-            className="md:text-[50px] text-4xl lg:text-[70px] font-extrabold leading-tight whitespace-nowrap mt-5 mr-45"
+            initial={{ width: 0,  opacity:0}}
+            animate={{ width: "auto" ,opacity:1}}
+            transition={{ duration: 0.5, delay: 0.5 }}
+            className="md:text-[50px] text-4xl lg:text-[70px] font-extrabold leading-tight whitespace-nowrap text-center mt-5"
           >
             I'M ABDUL <br />
             MANNAN
