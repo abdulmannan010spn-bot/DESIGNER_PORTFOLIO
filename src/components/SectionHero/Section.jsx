@@ -12,7 +12,7 @@ const Section = (props) => {
             initial={{ width: 0 }}
             animate={{}}
             transition={{ duration: 1, delay: 1 }}
-            className="md:text-[50px] text-4xl lg:text-[70px] font-extrabold leading-tight whitespace-nowrap mt-5 mr-52"
+            className="md:text-[50px] text-4xl lg:text-[70px] font-extrabold leading-tight whitespace-nowrap mt-5 mr-45"
           >
             I'M ABDUL <br />
             MANNAN
